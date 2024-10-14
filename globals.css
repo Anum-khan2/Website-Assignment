@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* Base styles for the entire application */
+body {
+  font-family: Arial, sans-serif; /* Set a default font */
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Light background for the whole page */
+}
+
+h1 {
+  color: #0070f3; /* Primary color for all h1 tags */
+  text-align: center; /* Center align all h1 tags */
+}
+
+h2 {
+  color: #333; /* Dark color for h2 tags */
+}
+
+p {
+  line-height: 1.6; /* Increase line height for better readability */
+  color: #666; /* Default color for paragraphs */
+}
+
+.introduction {
+  background-color: #ffffff; /* White background for sections */
+  padding: 20px; /* Padding for content */
+  margin: 20px; /* Margin around sections */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}

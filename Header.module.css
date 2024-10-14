@@ -1,0 +1,34 @@
+.header {
+  background-color: #282c34; /* Example background color */
+  padding: 20px; /* Spacing around the header */
+  color: white; /* Text color */
+  display: flex; /* Flexbox for layout */
+  justify-content: space-between; /* Space between title and nav */
+  align-items: center; /* Center items vertically */
+}
+
+.title {
+  font-size: 2rem; /* Title font size */
+  margin: 0; /* Remove default margin */
+}
+
+
+.nav ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Flexbox for horizontal layout */
+}
+
+.nav li {
+  margin-left: 20px; /* Space between nav items */
+}
+
+.nav a {
+  color: white; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.nav a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
